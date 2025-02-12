@@ -86,11 +86,13 @@ public class Cauldron : Condition
         {
             Debug.Log("La potion est de la bonne couleur !");
             isActive = true;
+            Manager.CheckConditions();
             //a
         }
         else
         {
             isActive = false;
+            Manager.CheckConditions();
         }
 
 

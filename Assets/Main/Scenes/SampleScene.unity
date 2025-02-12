@@ -6416,7 +6416,7 @@ PrefabInstance:
     - target: {fileID: 7668830299185360540, guid: f13bbbc9578242a44953eec81cfb27d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.12
+      value: -5.48
       objectReference: {fileID: 0}
     - target: {fileID: 7668830299185360540, guid: f13bbbc9578242a44953eec81cfb27d4,
         type: 3}
@@ -6426,7 +6426,7 @@ PrefabInstance:
     - target: {fileID: 7668830299185360540, guid: f13bbbc9578242a44953eec81cfb27d4,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.24
+      value: 1.35
       objectReference: {fileID: 0}
     - target: {fileID: 7668830299185360540, guid: f13bbbc9578242a44953eec81cfb27d4,
         type: 3}
@@ -15249,7 +15249,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 765612374564137410, guid: 829b19349267ad74ead07b241ded9624, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 3829498570311637428, guid: 829b19349267ad74ead07b241ded9624,
@@ -15261,6 +15262,10 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1606108023}
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1299700400859042400, guid: 829b19349267ad74ead07b241ded9624,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 872189610}
     - targetCorrespondingSourceObject: {fileID: 1299700400859042400, guid: 829b19349267ad74ead07b241ded9624,
         type: 3}
       insertIndex: -1
@@ -15292,6 +15297,28 @@ MonoBehaviour:
   surfaceImage: {fileID: 0}
   bubblesPotion: {fileID: 1414768657}
   potionParticle: {fileID: 1414768659}
+--- !u!64 &872189610
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872189605}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -338191111392776048, guid: 761f086b8ea3d3b498c848051eb930a8, type: 3}
 --- !u!4 &873591711 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4687182150707669800, guid: 166b92b7222fe8344a671615701d3657,
@@ -32532,7 +32559,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 765612374564137410, guid: 829b19349267ad74ead07b241ded9624, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 3829498570311637428, guid: 829b19349267ad74ead07b241ded9624,
@@ -32544,6 +32572,10 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 69334841}
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1299700400859042400, guid: 829b19349267ad74ead07b241ded9624,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1640033940}
     - targetCorrespondingSourceObject: {fileID: 1299700400859042400, guid: 829b19349267ad74ead07b241ded9624,
         type: 3}
       insertIndex: -1
@@ -32581,6 +32613,28 @@ MonoBehaviour:
   surfaceImage: {fileID: 0}
   bubblesPotion: {fileID: 69334842}
   potionParticle: {fileID: 69334844}
+--- !u!64 &1640033940
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640033935}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -338191111392776048, guid: 761f086b8ea3d3b498c848051eb930a8, type: 3}
 --- !u!1001 &1640116872
 PrefabInstance:
   m_ObjectHideFlags: 0
